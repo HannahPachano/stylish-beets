@@ -20,6 +20,7 @@ h1, h2, h3 {
 }
 
 figcaption {
+  font-family: none;
   font-size: .8rem;
   font-style: italic;
   text-align: center;
@@ -53,4 +54,16 @@ a {
 a:hover {
   color: #3f1622;
   text-decoration: underline;
+}
+
+p {
+  font-family: none;
+}
+
+ol {
+  font-family: none;
+}
+
+ul {
+  font-size: .8rem
 }
