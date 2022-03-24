@@ -13,15 +13,22 @@ img {
   width: 100%;
 }
 
-h1, h2, h3 {
+h1 {
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
   color: #3f1622;
 }
 
+h2, h3 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #3f1622;
+}
+
 figcaption {
   font-family: none;
-  font-size: .8rem;
+  font-size: 1.5rem;
   font-style: italic;
   text-align: center;
 }
@@ -33,6 +40,7 @@ nav {
 }
 
 nav ol {
+  font-family: "PT Sans", sans-serif;
   list-style-type: none;
 }
 
@@ -60,10 +68,6 @@ p {
   font-family: none;
 }
 
-ol {
+ul li {
   font-family: none;
-}
-
-ul {
-  font-size: .8rem
 }
